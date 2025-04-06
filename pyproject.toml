@@ -1,0 +1,14 @@
+[project]
+name = "hands-on-llm-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.10.0",
+    "langchain>=0.3.23",
+    "langchain-google-genai>=2.1.2",
+    "pypdf>=5.4.0",
+    "langchain-community>=0.3.21",
+    "python-dotenv>=1.1.0",
+]
